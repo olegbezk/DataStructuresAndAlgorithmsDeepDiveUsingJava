@@ -1,4 +1,4 @@
-package com.coding.interview.algorithms;
+package com.coding.interview.algorithms.arrays;
 
 public class FactorialAndRecursion {
     public static void main(String[] args) {
