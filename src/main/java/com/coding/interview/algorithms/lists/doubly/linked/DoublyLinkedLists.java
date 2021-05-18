@@ -31,5 +31,8 @@ public class DoublyLinkedLists {
         System.out.println("Removed from the end: " + linkedList.removeFromEnd());
         System.out.println(linkedList.getSize());
         linkedList.printList();
+
+        System.out.println(linkedList.addBefore(new Employee("James", "Bond", 700), janeJones));
+        linkedList.printList();
     }
 }
