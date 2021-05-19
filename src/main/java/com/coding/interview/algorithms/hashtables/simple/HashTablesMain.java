@@ -1,4 +1,4 @@
-package com.coding.interview.algorithms.hashtables;
+package com.coding.interview.algorithms.hashtables.simple;
 
 import com.coding.interview.algorithms.common.Employee;
 
