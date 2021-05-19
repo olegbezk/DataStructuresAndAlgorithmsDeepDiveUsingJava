@@ -1,4 +1,4 @@
-package com.coding.interview.algorithms.lists;
+package com.coding.interview.algorithms.common;
 
 import java.util.Objects;
 

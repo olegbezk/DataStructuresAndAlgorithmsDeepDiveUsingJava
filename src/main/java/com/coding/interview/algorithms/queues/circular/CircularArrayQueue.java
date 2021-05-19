@@ -1,6 +1,6 @@
 package com.coding.interview.algorithms.queues.circular;
 
-import com.coding.interview.algorithms.queues.Employee;
+import com.coding.interview.algorithms.common.Employee;
 
 import java.util.NoSuchElementException;
 

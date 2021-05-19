@@ -1,6 +1,6 @@
 package com.coding.interview.algorithms.lists.doubly.linked;
 
-import com.coding.interview.algorithms.lists.Employee;
+import com.coding.interview.algorithms.common.Employee;
 
 public class DoublyLinkedLists {
 

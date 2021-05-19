@@ -1,5 +1,7 @@
 package com.coding.interview.algorithms.lists;
 
+import com.coding.interview.algorithms.common.Employee;
+
 import java.util.List;
 import java.util.Vector;
 

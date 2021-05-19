@@ -1,7 +1,8 @@
 package com.coding.interview.algorithms.lists;
 
+import com.coding.interview.algorithms.common.Employee;
+
 import java.util.LinkedList;
-import java.util.List;
 
 public class JDKLinkedList {
 

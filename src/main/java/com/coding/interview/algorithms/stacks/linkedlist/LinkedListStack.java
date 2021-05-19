@@ -1,9 +1,8 @@
 package com.coding.interview.algorithms.stacks.linkedlist;
 
-import com.coding.interview.algorithms.stacks.Employee;
+import com.coding.interview.algorithms.common.Employee;
 
 import java.util.LinkedList;
-import java.util.ListIterator;
 
 public class LinkedListStack {
 

@@ -1,6 +1,6 @@
 package com.coding.interview.algorithms.stacks.linkedlist;
 
-import com.coding.interview.algorithms.stacks.Employee;
+import com.coding.interview.algorithms.common.Employee;
 
 public class MainArrayStack {
 

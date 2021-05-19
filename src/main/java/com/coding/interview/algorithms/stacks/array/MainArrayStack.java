@@ -1,7 +1,6 @@
 package com.coding.interview.algorithms.stacks.array;
 
-import com.coding.interview.algorithms.stacks.Employee;
-import com.coding.interview.algorithms.stacks.array.ArrayStack;
+import com.coding.interview.algorithms.common.Employee;
 
 public class MainArrayStack {
     public static void main(String[] args) {
