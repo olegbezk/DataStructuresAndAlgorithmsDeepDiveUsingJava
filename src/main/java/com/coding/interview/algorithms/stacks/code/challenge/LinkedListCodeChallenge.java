@@ -21,12 +21,6 @@ public class LinkedListCodeChallenge {
 
         String preparedString = string.replaceAll("[^a-zA-Z0-9]", "");
 
-//        String reversedString = "";
-//
-//        for (int i = preparedString.length() - 1; i >= 0; i--) {
-//            reversedString = reversedString + preparedString.charAt(i);
-//        }
-
         String[] split = preparedString.split("");
 
         LinkedList<String> stringStack = new LinkedList<>();
@@ -41,8 +35,6 @@ public class LinkedListCodeChallenge {
             stringBuilder.append(s);
         }
 
-        String reversedString = stringBuilder.toString();
-
-        return reversedString.equalsIgnoreCase(preparedString);
+        return stringBuilder.toString().equalsIgnoreCase(preparedString);
     }
 }
