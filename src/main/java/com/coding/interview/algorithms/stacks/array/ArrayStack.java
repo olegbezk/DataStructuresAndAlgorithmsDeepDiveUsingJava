@@ -1,4 +1,6 @@
-package com.coding.interview.algorithms.stacks;
+package com.coding.interview.algorithms.stacks.array;
+
+import com.coding.interview.algorithms.stacks.Employee;
 
 import java.util.EmptyStackException;
 
