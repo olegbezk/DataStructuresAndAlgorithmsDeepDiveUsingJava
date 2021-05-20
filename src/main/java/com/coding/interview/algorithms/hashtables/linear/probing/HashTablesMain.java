@@ -22,5 +22,12 @@ public class HashTablesMain {
 
         System.out.println("Retrieve Mike: " + hashTable.get("Wilson"));
         System.out.println("Retrieve Mary: " + hashTable.get("Smith"));
+
+        System.out.println("Remove Mary: " + hashTable.remove("Smith"));
+        System.out.println("Remove Mike: " + hashTable.remove("Wilson"));
+
+        System.out.println("Final table view:");
+
+        hashTable.printHashTable();
     }
 }

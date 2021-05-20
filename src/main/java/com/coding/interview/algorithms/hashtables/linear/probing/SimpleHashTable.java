@@ -35,13 +35,25 @@ public class SimpleHashTable {
     }
 
     public Employee get(String key) {
-        int hashKey = findKey(key);
+        int hashedKey = findKey(key);
 
-        if (hashKey == -1) {
+        if (hashedKey == -1) {
             return null;
         }
 
-        return hashtable[hashKey].getEmployee();
+        return hashtable[hashedKey].getEmployee();
+    }
+
+    public Employee remove(String key) {
+        int hashedKey = findKey(key);
+
+        if (hashedKey == -1) {
+            return null;
+        }
+
+        Employee employee = hashtable[hashedKey].getEmployee();
+        hashtable[hashedKey] = null;
+        return employee;
     }
 
     public void printHashTable() {
@@ -75,10 +87,10 @@ public class SimpleHashTable {
             hashedKey = (hashedKey + 1) % hashtable.length;
         }
 
-        if (stopIndex == hashedKey) {
-            return -1;
-        } else {
+        if (hashtable[hashedKey] != null && hashtable[hashedKey].getKey().equals(key)) {
             return hashedKey;
+        } else {
+            return -1;
         }
     }
 
