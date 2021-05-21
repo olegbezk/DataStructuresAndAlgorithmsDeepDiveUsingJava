@@ -1,6 +1,7 @@
 package com.coding.interview.algorithms.hashtables.linear.probing;
 
 import com.coding.interview.algorithms.common.Employee;
+import com.coding.interview.algorithms.common.StoredEmployee;
 
 public class SimpleHashTable {
 

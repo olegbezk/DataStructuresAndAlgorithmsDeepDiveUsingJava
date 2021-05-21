@@ -1,6 +1,4 @@
-package com.coding.interview.algorithms.hashtables.linear.probing;
-
-import com.coding.interview.algorithms.common.Employee;
+package com.coding.interview.algorithms.common;
 
 public class StoredEmployee {
     private String key;
