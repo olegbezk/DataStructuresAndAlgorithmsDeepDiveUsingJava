@@ -29,5 +29,7 @@ public class HashTablesMain {
         System.out.println("Final table view:");
 
         hashTable.printHashTable();
+
+        System.out.println("Retrieve Jane: " + hashTable.get("Smith"));
     }
 }

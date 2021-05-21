@@ -52,7 +52,17 @@ public class SimpleHashTable {
         }
 
         Employee employee = hashtable[hashedKey].getEmployee();
-        hashtable[hashedKey] = null;
+        // hashtable[hashedKey] = null;
+
+        StoredEmployee [] oldHashtable = hashtable;
+        hashtable = new StoredEmployee[hashtable.length];
+
+        for (int i = 0; i < hashtable.length; i++) {
+            if (oldHashtable[i] != null) {
+                put(oldHashtable[i].getKey(), oldHashtable[i].getEmployee());
+            }
+        }
+
         return employee;
     }
 
