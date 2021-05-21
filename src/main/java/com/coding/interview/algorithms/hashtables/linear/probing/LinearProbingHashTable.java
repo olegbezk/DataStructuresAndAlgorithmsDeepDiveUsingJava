@@ -3,11 +3,11 @@ package com.coding.interview.algorithms.hashtables.linear.probing;
 import com.coding.interview.algorithms.common.Employee;
 import com.coding.interview.algorithms.common.StoredEmployee;
 
-public class SimpleHashTable {
+public class LinearProbingHashTable {
 
     public StoredEmployee[] hashtable;
 
-    public SimpleHashTable() {
+    public LinearProbingHashTable() {
         hashtable = new StoredEmployee[10];
     }
 

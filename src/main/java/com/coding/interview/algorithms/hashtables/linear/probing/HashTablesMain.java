@@ -12,7 +12,7 @@ public class HashTablesMain {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 194);
 
-        SimpleHashTable hashTable = new SimpleHashTable();
+        LinearProbingHashTable hashTable = new LinearProbingHashTable();
         hashTable.put("Jones", janeJones);
         hashTable.put("Doe", johnDoe);
         hashTable.put("Wilson", mikeWilson);
