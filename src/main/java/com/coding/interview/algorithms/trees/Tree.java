@@ -45,6 +45,18 @@ public class Tree {
         }
     }
 
+    public void traversePreOrder() {
+        if (root != null) {
+            root.traversePreOrder();
+        }
+    }
+
+    public void traversePostOrder() {
+        if (root != null) {
+            root.traversePostOrder();
+        }
+    }
+
     private TreeNode delete(TreeNode subtreeRoot, int value) {
         if (subtreeRoot == null) {
             return subtreeRoot;
