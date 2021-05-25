@@ -24,5 +24,25 @@ public class Main {
 
         System.out.println(tree.min());
         System.out.println(tree.max());
+
+        // Case 1:
+        tree.delete(15);
+        tree.traverseInOrder();
+        System.out.println();
+
+        tree.delete(27);
+
+        // Case 2:
+        tree.traverseInOrder();
+        System.out.println();
+
+        // Case 3:
+        tree.delete(25);
+        tree.traverseInOrder();
+        System.out.println();
+
+        // Delete not existing in the tree value
+        tree.delete(8888);
+        tree.traverseInOrder();
     }
 }
