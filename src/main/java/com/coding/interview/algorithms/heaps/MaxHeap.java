@@ -1,11 +1,11 @@
 package com.coding.interview.algorithms.heaps;
 
-public class Heap {
+public class MaxHeap {
 
     private int[] heap;
     private int size;
 
-    public Heap(int capacity) {
+    public MaxHeap(int capacity) {
         heap = new int[capacity];
     }
 
@@ -40,6 +40,18 @@ public class Heap {
         size--;
 
         return deletedValue;
+    }
+
+    public void sort() {
+        int lastHeapIndex = size - 1;
+
+        for (int i = 0; i < lastHeapIndex; i++) {
+            int temp = heap[0];
+            heap[0] = heap[lastHeapIndex - i];
+            heap[lastHeapIndex - i] = temp;
+
+            fixHeapBelow(0, lastHeapIndex - i - 1);
+        }
     }
 
     public int getParent(int index) {

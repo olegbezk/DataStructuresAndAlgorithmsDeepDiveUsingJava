@@ -4,7 +4,7 @@ public class HeapMain {
 
     public static void main(String[] args) {
 
-        Heap heap = new Heap(10);
+        MaxHeap heap = new MaxHeap(10);
 
         heap.insert(80);
         heap.insert(75);
@@ -19,18 +19,24 @@ public class HeapMain {
 
         heap.printHeap();
 
-        heap.delete(1);
+        heap.sort();
+
+        System.out.println("Heapsort");
 
         heap.printHeap();
 
-        heap.delete(5);
-
-        heap.printHeap();
-
-        heap.delete(0);
-
-        heap.printHeap();
-
-        System.out.println(heap.peek());
+//        heap.delete(1);
+//
+//        heap.printHeap();
+//
+//        heap.delete(5);
+//
+//        heap.printHeap();
+//
+//        heap.delete(0);
+//
+//        heap.printHeap();
+//
+//        System.out.println(heap.peek());
     }
 }
